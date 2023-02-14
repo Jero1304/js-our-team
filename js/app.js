@@ -8,8 +8,9 @@ Barbara Ramos	Graphic Designer	barbara-ramos-graphic-designer.jpg
 */
 let member;
 
+
+
 const memberTeam = [
-    member,
     {
         fName :'Wayne Barnett',
         job :'Founder & CEO',
@@ -27,6 +28,7 @@ const memberTeam = [
     },
 ]
 
+
 for (let i = 0; i < memberTeam.length; i++) {
     const currentMember = memberTeam[i];
     const firstName = currentMember.fName;
@@ -35,3 +37,4 @@ for (let i = 0; i < memberTeam.length; i++) {
 
     console.log('name',firstName,'role',role,'image',imageProfile,'array', currentMember[i]);    
 }
+
